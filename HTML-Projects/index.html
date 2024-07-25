@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration form</title>
+</head>
+<body>
+  <form action="" method="post" name="questions" id="questions">
+
+    <h1>Registration form</h1>
+    <h3>Customer Details:</h3>
+    <label for="">Name:
+      <input type="text" name="name" id="name">
+    </label><br><br>
+
+    <label for="age">Age:
+      <input type="number" name="age" id="age">
+    </label><br><br>
+
+    <label for="email">Email:
+      <input type="email" id="email" name="email">
+    </label><br><br>
+
+    <label for="birth-date">Date of birth:
+      <input type="date" name="birth-date" id="birth-date">
+    </label><br><br>
+
+    <label>Tel:
+      <input type="tel" name="phone" id="phone" placeholder="+(27)00-000-0000"><br><br>
+    </label>
+
+    <fieldset>
+      <legend>
+        What is your favourite Sport
+      </legend>
+
+        <input type="checkbox" name="soccer" id="soccer"><label for="soccer">
+          Soccer
+        </label><br><br>
+
+        <input type="checkbox" name="rugby" id="rugby"><label for="rugby">Rugby</label><br><br>
+
+        <input type="checkbox" name="swimming" id="swimming"><label for="swimming">Swimming</label><br><br></r>
+
+        <input type="checkbox" name="volleyball" id="volleyball"><label for="volleyball">Volleyball</label>
+    </fieldset><br><br>
+
+    <label for="country">
+      Which province are you from?:
+    </label>
+    <select name="country" id="country">
+      <option value="North West">North West</option>
+      <option value="Free State">Free State</option>
+      <option value="Eastern Cape">Eastern Cape</option>
+      <option value="Gauteng">Gauteng</option>
+      <option value="KwaZulu-Natal">KwaZulu-Natal</option>
+      <option value="Limpopo">Limpopo</option>
+      <option value="Mpumalanga">Mpumalanga</option>
+      <option value="Northern Cape">Northern Cape</option>
+      <option value="Western Cape">Western Cape</option>
+    </select><br><br>
+
+    <label for="resume">Upload your resume:
+      <input type="file" name="resume" id="resume">
+    </label>
+
+
+    <br><br>
+    <input type="submit">
+
+    <button>Clear</button>
+
+  </form>
+  
+</body>
+</html>
